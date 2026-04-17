@@ -41,15 +41,12 @@ A Task has:
 
 ## Setup
 ### 1. Install dependencies
-'''bash
 npm install
 
 ### 2. Run database migration
-'''bash
 npx prisma migrate dev--name init
 
 ### 3. Start server
-'''bash
 npm run dev
 
 ### 4. Open GraphQL
