@@ -14,11 +14,11 @@ This project uses Node.js, TypeScript, Prisma, and GraphQL Yoga with Pothos for 
 
 ## Project Structure
 src/
-  index.ts          # server entry point
-  prisma.ts         # Prisma client instance
-  schema/
-    builder.ts      # Pothos schema builder
-    task.ts         # Task type + queries + mutations
+  index.ts          # server entry point <br>
+  prisma.ts         # Prisma client instance <br>
+  schema/  <br>
+    builder.ts      # Pothos schema builder <br>
+    task.ts         # Task type + queries + mutations <br>
 
 ## API Features
 
