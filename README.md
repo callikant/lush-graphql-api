@@ -55,7 +55,7 @@ npm run dev
 ### 4. Open GraphQL
 
 ## GraphQL playground:
-http://localhost:4000/graphql
+https://psychic-doodle-66pv9rg9j57f5696-4000.app.github.dev/graphql
 
 ## Environment
 

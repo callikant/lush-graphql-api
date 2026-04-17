@@ -5,10 +5,9 @@ import { prisma } from "./prisma";
 
 const yoga = createYoga({
   schema,
-  context: () => ({
-    prisma,
-  }),
-  maskedErrors: false,
+  context: () => ({ prisma }),
+  graphqlEndpoint: "/",
+  landingPage: false,
 });
 
 const server = createServer(yoga);
