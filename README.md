@@ -4,12 +4,12 @@ This project uses Node.js, TypeScript, Prisma, and GraphQL Yoga with Pothos for 
 (Take home project: backend structure, GraphQL design and working with a database in a typed environment.)
 
 ## Tech Stack!
--Node.js
--TypeScript
--GraphQL Yoga
--Pothos
--Prisma
--SQLite
+-Node.js<br>
+-TypeScript<br>
+-GraphQL Yoga<br>
+-Pothos<br>
+-Prisma<br>
+-SQLite<br>
 -Zod
 
 ## Project Structure
@@ -23,21 +23,21 @@ src/
 ## API Features
 
 ### Queries
--Get all tasks
+-Get all tasks <br>
 -Get a single task by ID
 
 ### Mutations
--Create a task
--Toggle task completion
+-Create a task <br>
+-Toggle task completion <br>
 -Delete a task
 
 ## Data Model:
-A Task has:
--id(string, uuid)
--title(string)
--completed(boolean)
--createdAt (date)
--updatedAt (date)
+A Task has:<br>
+-id(string, uuid)<br>
+-title(string)<br>
+-completed(boolean)<br>
+-createdAt (date)<br>
+-updatedAt (date)<br>
 
 ## Setup
 ### 1. Install dependencies
@@ -63,7 +63,7 @@ How to structure a GraphQL API using Pothos, how Prisma works (in general) but a
 how to validate inputs using Zod (https://zod.dev/), how context works in GraphQL resolvers, and how TypeScript helps catch backend mistakes early on.
 
 ## Improvements
-Perhaps task filtering (like completed vs incomplete, and definitely a switch from SQLite to Postgres)
+Perhaps task filtering (like completed vs incomplete), and definitely a switch from SQLite to Postgres
 
 ## Summary
 This is a simple CRUD GraphQL API, but it really helped me understand how backend systems connect together--schema design, database access and structure in one place.
