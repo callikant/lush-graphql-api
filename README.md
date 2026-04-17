@@ -1,4 +1,4 @@
-# lush-graphql-api
+
 # lush-graphql-api
 Backend CRUD API to manage a list of tasks using GraphQL.
 This project uses Node.js, TypeScript, Prisma, and GraphQL Yoga with Pothos for the schema.
